@@ -6,7 +6,7 @@ import pandas
 from ta.volatility import BollingerBands
 
 
-#--------------------- Company class
+#---------------------Crypto class
 class Crypto:
     def __init__(self, symbol):
         self.symbol = symbol
